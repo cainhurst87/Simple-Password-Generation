@@ -92,24 +92,18 @@ header h2 {
     padding: 0.5em;
     margin: 0.2em;
     width: 100%;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 #container-option-box button i {
     margin-right: 0.2em;
 }
 
-#container-option-box button:hover {
-    color: #293045;
+#container-option-box-button-row button:hover{
     background: #fff;
-    cursor: pointer;
+    color: #293045;
 }
 
-#container-option-box button:active {
-    color: #fff;
-    background: #fff;
-    cursor: pointer;
-}
 
 /* slider */
 
@@ -125,8 +119,7 @@ header h2 {
 }
 
 #slider-char {
-    width: 100%;
-    margin-right: 1%;        
+    width: 100%;       
 }
 
 #slider-char-count{
@@ -166,18 +159,7 @@ header h2 {
     width: 100%;
     height: 100%;
     border-radius: 2.5em;
-}
-
-.checkbox:hover {
-    color: #293045;
-    background: #fff;
-    cursor: pointer;
-}
-
-.checkbox:active {
-    color: #fff;
-    background: #fff;
-    cursor: pointer;
+    transition: 0.2s;
 }
 
 .checkbox input[type="checkbox"]:checked + label {
@@ -205,6 +187,19 @@ footer a {
     color: #fff;
     background: none;
     border: none;
+}
+
+/* shared */
+
+.checkbox:active, #container-option-box button:active {
+    color: #fff;
+    background: #fff;
+    cursor: pointer;
+}
+
+.checkbox label, .checkbox:hover{
+    background: #293045;
+    cursor: pointer;
 }
 
 /* queries */
