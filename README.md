@@ -2,3 +2,5 @@ Simple Password Generator allowing for setting lenght and the characters that wi
 Uses JS's native Math.random to generate passwords so might not be so safe to use in high security situations.
 
 [Live Demo](https://cainhurst87.github.io/Simple-Password-Generation/)
+
+![](https://github.com/cainhurst87/Simple-Password-Generation/blob/main/password-preview.gif)
